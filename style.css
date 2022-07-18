@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: 'pacifico';
+    font-size: 48px;
+    font-style: normal;
+    
+    background: rgba(42, 38, 61, 0.82) url(/Asset/ImageBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+    color: white;
+    margin: 60px;
+    text-align: center;
+    
+}
+.conten {
+    font-style: normal;
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+nav .menu-btn i{
+    color: white;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 150px;
+}
+
+
+nav ul a {
+    font-weight: bold;
+    padding: 100px 16px 0px px;
+    text-decoration: none;
+}
+
+
+
+a.tbl-about {
+    font-size: 12px;
+    box-sizing: border-box;
+
+    color:#FCB371;
+    border: 2px solid #FCB371;
+    border-radius: 6px;
+    padding: 8px 53px 8px 53px;
+}
+
+a.tbl-reservasi {
+    font-size: 12px;
+    box-sizing: border-box;
+
+
+    color: white;
+    background: #FCB371;
+    border-radius: 6px;
+    padding: 10px 49px 10px 49px;
+}
+
+.icon-arrow {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    left: 60px;
+    top: 70px;
+
+    border: 2px solid #FCB371;
+}
+
+.icon-arrow:after {
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 4px;
+    background-color: #FCB371;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -6px;
+    bottom: -9px;
+}
+
+.icon-arrow:before {
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 4px;
+    background-color: #FCB371;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -6px;
+    bottom: 5px;
+}
